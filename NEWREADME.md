@@ -4,10 +4,10 @@ This repository contains a detailed automated pipeline for processing and analyz
 
 ## Pipeline Overview
 
-Overview
+*Overview*
 This project automates a series of tasks using SLURM job scheduler scripts. The Everything.sh script coordinates the execution of several dependent jobs, ensuring that each step is completed successfully before moving on to the next.
 
-Scripts
+*Scripts*
 This is the main script that orchestrates the execution of several dependent jobs in a sequential manner. The jobs include downloading data, updating master lists, formatting files, running GPT scripts, creating website files, and uploading results. The script uses SLURM job dependencies to ensure proper execution order.
 
 Job Details
